@@ -1,4 +1,13 @@
-p{
+/* static width means that if the view becomes less than the defined dimensions then will get a scroll action by default */
+/* margin pressence of two actually means it is a repeating application in the following order:
+   top right down left
+   auto can be used to center the content horizontally.
+*/
+#static-width-content{
 	width: 600px;
 	/* margin: 0 auto; */
+}
+
+#max-width-content{
+	max-width: 600px;
 }
