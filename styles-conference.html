@@ -10,8 +10,29 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/conference-style.css">
 </head>
+<!-- Remember block level elements begin on a new line, stacking one on top of the other and occupy any available width -->
+<!-- Inline-level elements do not begin on a new line, only maintaining their width of the content.  Can be nested within each other but cannot wrap block-level elements -->
 <body>
+	<!-- headers are expected at the top of the page/article/section/segment and could include text/navigation -->
+	<header>This is a header</header>
+	<!-- nav identifies section responsible for navigation of the links on the page.  One off links should use the anchor tag <a> instead of nav -->
+	<nav></nav>
+	<!-- artical element is used to identify a section of independent, self contained content, that may be independently distributed or reused -->
+	<article></article>
+	<!-- section element is used to identify a grouping of content -->
+	<section></section>
+	<!-- aside holds items such as sidebars, inserts, or brief explainations -->
+	<aside></aside>
+	<!-- similar but opposite of header, expected to reside at the bottom of the HTML element container -->
+	<footer></footer>
 	<h1>Styles Conference</h1>
 	<p>Every year the brightest web designers and front end developers descend on Chicago to discuss the latest technologies.  Join us this August!</p>
+	<!-- block-level element that is commonly used to identify large groupings of content. -->
+	<div></div>
+	<!-- inline-level element commonly used to identify smaller groupings of text within a block-level element -->
+	<span></span>
+	<!-- use <strong> instead of <b> to highlight importance.  <b> means to stylistically offset text. -->
+	<!-- em to italize to add emphasis, <i> is actually used to convey an alternative voice / tone instead -->
+	
 </body>
 </html>
