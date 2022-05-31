@@ -8,6 +8,25 @@
 	/* margin: 0 auto; */
 }
 
+/* once view become less than max width, the content will auto wrap, thus no scrolling bar will become present */
 #max-width-content{
 	max-width: 600px;
 }
+
+#simple {
+	width: 600px;
+	margin: 20px auto;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+  }
+  
+  #fancy {
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 50px;
+	border: solid blue 10px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+  }
