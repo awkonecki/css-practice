@@ -17,5 +17,11 @@
 			"name": "Open index.html",
 			"file": "/Users/nebo/Repos/css-practice/index.html"
 		}
+		{
+			"type": "pwa-msedge",
+			"request": "launch",
+			"name": "Open styles-conference.html",
+			"file": "/Users/nebo/Repos/css-practice/styles-conference.html"
+		}
 	]
 }
