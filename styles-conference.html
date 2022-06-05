@@ -10,8 +10,88 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/conference-style.css">
 </head>
+<!-- Remember block level elements begin on a new line, stacking one on top of the other and occupy any available width -->
+<!-- Inline-level elements do not begin on a new line, only maintaining their width of the content.  Can be nested within each other but cannot wrap block-level elements -->
 <body>
-	<h1>Styles Conference</h1>
-	<p>Every year the brightest web designers and front end developers descend on Chicago to discuss the latest technologies.  Join us this August!</p>
+	<!-- headers are expected at the top of the page/article/section/segment and could include text/navigation -->
+	<header id="header">
+		<h1>
+			<a href='styles-conference.html'>Styles Conference</a>
+		</h1>
+		<nav>
+			<a href='styles-conference.html'>Home</a>
+			<a href='speakers.html'>Speakers</a>
+			<a href="schedule.html">Scheulde</a>
+			<a href="venue.html">Venue</a>
+			<a href="register.html">Register</a>
+		</nav>
+		<h3>August 24 &ndash; 26th &mdash; Chicago, IL</h3>
+	</header>
+	<section>
+		<h2>Dedicated to the Craft of Building Websites</h2>
+		<p>Every year the brightest web designers and front end developers descend on Chicago to discuss the latest technologies.  Join us this August!</p>
+		<a href="register.html">Register Now!</a>
+	</section>
+	<section>
+		<section>
+			<a href="speakers.html">
+				<h5>Speakers</h5>
+				<h3>World-Class Speakers</h3>
+			</a>
+			<p>Joining us from all around the world are over twenty fantastic speakers...</p>
+		</section>
+		<section>
+			<a href="schedule.html">
+				<h5>Schedule</h5>
+				<p>
+					<ol>
+						<li>August 5 - </li>
+						<li>August 6 - </li>
+						<li>August 7 - </li>
+					</ol>
+				</p>
+			</a>
+		</section>
+		<section>
+			<a href="venue.html">
+				<h5>Venue</h5>
+				<h3>The Chicago Theatre</h3>
+			</a>
+			<p>Located centrally within Chicago, come rest and build great things with us!</p>
+		</section>
+	</section>
+	<!-- nav identifies section responsible for navigation of the links on the page.  One off links should use the anchor tag <a> instead of nav -->
+	<nav></nav>
+	<!-- artical element is used to identify a section of independent, self contained content, that may be independently distributed or reused -->
+	<article></article>
+	<!-- section element is used to identify a grouping of content -->
+	<section></section>
+	<!-- aside holds items such as sidebars, inserts, or brief explainations -->
+	<aside></aside>
+	
+	<!-- block-level element that is commonly used to identify large groupings of content. -->
+	<div></div>
+	<!-- inline-level element commonly used to identify smaller groupings of text within a block-level element -->
+	<span></span>
+	<!-- use <strong> instead of <b> to highlight importance.  <b> means to stylistically offset text. -->
+	<!-- em to italize to add emphasis, <i> is actually used to convey an alternative voice / tone instead -->
+
+	<!-- similar but opposite of header, expected to reside at the bottom of the HTML element container -->
+	<footer>
+		<small>
+			<h4>&copy; Styles Conference</h4>
+			<h5><a href='mailto:some-one@google.com?subject=Reach%20Me%20Later&body=Hello'>Email</a></h5>
+			<h5><a href="http://google.com" target="_blank">New Google page for you</a></h5>
+			<h5><a href='#header'>Top</a></h5>
+		</small>
+		<nav>
+			<a href='styles-conference.html'>Home</a>
+			<a href='speakers.html'>Speakers</a>
+			<a href="schedule.html">Scheulde</a>
+			<a href="venue.html">Venue</a>
+			<a href="register.html">Register</a>
+		</nav>
+	</footer>
+	
 </body>
 </html>
