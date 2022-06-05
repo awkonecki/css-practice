@@ -1,4 +1,40 @@
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.container{
+	width: 960px;
+	padding: 0 30px;
+	/* figure out equal left and right margins to center the element horizontally (not necessarily the content) */
+	margin: 0 auto;
+}
+h1, h3, h4, h5, p {
+	margin-bottom: 22px;
+	background-color: rgb(85, 182, 85);
+}
 p{
 	color: orange;
 	font-size: 16px;
+}
+
+/* buttons */
+.btn {
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0;
+}
+
+.btn-alt {
+	border: 5px solid gray;
+	padding: 10px 30px;
+}
+
+/* home */
+
+.hero {
+	padding: 22px 80px 66px 80px;
+	/* becuase the section is the parent of the h1 header, the background color is applied to the h1 margin as well */
+	background-color: thistle;
 }

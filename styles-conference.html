@@ -14,10 +14,12 @@
 <!-- Inline-level elements do not begin on a new line, only maintaining their width of the content.  Can be nested within each other but cannot wrap block-level elements -->
 <body>
 	<!-- headers are expected at the top of the page/article/section/segment and could include text/navigation -->
-	<header id="header">
-		<h1>
-			<a href='styles-conference.html'>Styles Conference</a>
-		</h1>
+	<header id="header" class="container">
+		<section class="container hero">
+			<h1>
+				<a class="btn btn-alt" href='styles-conference.html'>Styles Conference</a>
+			</h1>
+		</section>
 		<nav>
 			<a href='styles-conference.html'>Home</a>
 			<a href='speakers.html'>Speakers</a>
@@ -27,20 +29,20 @@
 		</nav>
 		<h3>August 24 &ndash; 26th &mdash; Chicago, IL</h3>
 	</header>
-	<section>
+	<section class="container">
 		<h2>Dedicated to the Craft of Building Websites</h2>
 		<p>Every year the brightest web designers and front end developers descend on Chicago to discuss the latest technologies.  Join us this August!</p>
 		<a href="register.html">Register Now!</a>
 	</section>
-	<section>
-		<section>
+	<section class="container">
+		<section class="container">
 			<a href="speakers.html">
 				<h5>Speakers</h5>
 				<h3>World-Class Speakers</h3>
 			</a>
 			<p>Joining us from all around the world are over twenty fantastic speakers...</p>
 		</section>
-		<section>
+		<section class="container">
 			<a href="schedule.html">
 				<h5>Schedule</h5>
 				<p>
@@ -52,7 +54,7 @@
 				</p>
 			</a>
 		</section>
-		<section>
+		<section class="container">
 			<a href="venue.html">
 				<h5>Venue</h5>
 				<h3>The Chicago Theatre</h3>
@@ -77,7 +79,7 @@
 	<!-- em to italize to add emphasis, <i> is actually used to convey an alternative voice / tone instead -->
 
 	<!-- similar but opposite of header, expected to reside at the bottom of the HTML element container -->
-	<footer>
+	<footer class="container">
 		<small>
 			<h4>&copy; Styles Conference</h4>
 			<h5><a href='mailto:some-one@google.com?subject=Reach%20Me%20Later&body=Hello'>Email</a></h5>
